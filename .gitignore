@@ -60,3 +60,7 @@ logs/
 # Spark
 metastore_db/
 derby.log
+
+# Documentation files (local reference)
+*.docx
+Project A to Z in Simple.docx
