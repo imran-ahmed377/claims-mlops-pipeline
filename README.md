@@ -19,7 +19,7 @@ A production-grade **Medallion/Lakehouse Architecture** implementation for insur
 
 ```bash
 # Clone/navigate to project
-cd "Skills Upgrade\Gore Associate MLOps"
+cd "Skills Upgrade\MLOps Project"
 
 # Create virtual environment
 python -m venv .venv
