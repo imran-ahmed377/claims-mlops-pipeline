@@ -94,7 +94,7 @@ OUTPUT ANALYTICS
 ### File Structure
 
 ```
-Gore Associate MLOps/
+MLOPS PROJECT/
 ├── src/                          # Core application code
 │   ├── bronze/                   # Bronze layer
 │   │   ├── csv_ingester.py       # CSV loading & schema application
