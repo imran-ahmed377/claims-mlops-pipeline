@@ -397,14 +397,14 @@ with mlflow.start_run(tags={'phase': 'silver'}):
 
 ## 🏆 Core Capabilities
 
-### "Walk me through your architecture..."
+### "Architecture"
 
 **Structure:** Three-layer medallion pattern ensuring progressive data quality refinement
 - **Bronze (Raw):** Full fidelity ingestion with audit trail
 - **Silver (Clean):** Standardized, feature-enriched data ready for analytics
 - **Gold (Analytics):** 6 aggregation tables for business intelligence
 
-### "How do you handle data quality?"
+### "Data quality"
 
 **Multi-Gate Approach:**
 1. Schema validation at bronze (prevents type errors)
@@ -412,7 +412,7 @@ with mlflow.start_run(tags={'phase': 'silver'}):
 3. Retention % validation (alerts on unexpected filtering)
 4. Value distribution checks (catches outliers)
 
-### "What about compliance and audit?"
+### "Compliance and Audit"
 
 **Audit Trail via Metadata:**
 - `_ingested_at` - When data arrived
@@ -420,7 +420,7 @@ with mlflow.start_run(tags={'phase': 'silver'}):
 - `_record_id` - Unique identifier for tracing
 - MLflow run ID and tags for compliance snapshots
 
-### "How is your code testable?"
+### "Tests"
 
 **63 Comprehensive Tests:**
 - 11 bronze layer tests (schema, ingestion, metadata)
@@ -428,7 +428,7 @@ with mlflow.start_run(tags={'phase': 'silver'}):
 - 20 gold layer tests (aggregations, metrics)
 - 14 integration tests (end-to-end scenarios)
 
-### "What metrics do you track?"
+### "Metrics"
 
 **23+ Metrics Per Run:**
 - Phase metrics (rows ingested, cleaned, aggregated)
